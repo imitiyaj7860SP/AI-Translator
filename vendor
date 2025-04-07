@@ -1,0 +1,3 @@
+The vendor directory is created by Composer and is intended to be empty initially. It will be populated with dependencies when you run Composer install or update commands. 
+
+This file is intentionally left blank.
