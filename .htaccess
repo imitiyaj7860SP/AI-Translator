@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteBase /php-translator-app/public/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /php-translator-app/public/index.php [L]
